@@ -2,9 +2,9 @@ package bot
 
 import (
 	"fmt"
+	telebot "github.com/168yy/gfbot"
+	"github.com/168yy/gfbot/handlers"
 	"github.com/gogf/gf/v2/util/gconv"
-	telebot "github.com/jxo-me/gfbot"
-	"github.com/jxo-me/gfbot/handlers"
 	"html"
 )
 

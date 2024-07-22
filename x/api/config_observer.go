@@ -2,13 +2,13 @@ package api
 
 import (
 	"fmt"
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"net/http"
 	"strings"
 
+	"github.com/168yy/netx/x/config"
+	parser "github.com/168yy/netx/x/config/parsing/observer"
 	"github.com/gin-gonic/gin"
-	"github.com/jxo-me/netx/x/config"
-	parser "github.com/jxo-me/netx/x/config/parsing/observer"
 )
 
 // swagger:parameters createObserverRequest

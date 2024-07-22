@@ -3,14 +3,14 @@ package api
 import (
 	"bytes"
 	"fmt"
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"net/http"
 	"os"
 
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/service"
+	"github.com/168yy/netx/x/stats"
 	"github.com/gin-gonic/gin"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/service"
-	"github.com/jxo-me/netx/x/stats"
 )
 
 type serviceStatus interface {

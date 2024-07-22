@@ -4,8 +4,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/jxo-me/netx/core/hop"
-	"github.com/jxo-me/netx/core/metadata"
+	"github.com/168yy/netx/core/hop"
+	"github.com/168yy/netx/core/metadata"
 )
 
 type IHandler interface {

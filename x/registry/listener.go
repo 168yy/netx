@@ -1,8 +1,8 @@
 package registry
 
 import (
-	"github.com/jxo-me/netx/core/listener"
-	"github.com/jxo-me/netx/core/logger"
+	"github.com/168yy/netx/core/listener"
+	"github.com/168yy/netx/core/logger"
 )
 
 type ListenerRegistry struct {

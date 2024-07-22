@@ -8,9 +8,9 @@ import (
 	"net/http/httputil"
 	"time"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/internal/net/udp"
-	"github.com/jxo-me/netx/x/internal/util/socks"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/internal/net/udp"
+	"github.com/168yy/netx/x/internal/util/socks"
 )
 
 func (h *httpHandler) handleUDP(ctx context.Context, conn net.Conn, log logger.ILogger) error {

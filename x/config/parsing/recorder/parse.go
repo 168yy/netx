@@ -4,11 +4,11 @@ import (
 	"crypto/tls"
 	"strings"
 
-	"github.com/jxo-me/netx/core/recorder"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/internal/plugin"
-	xrecorder "github.com/jxo-me/netx/x/recorder"
-	recorderplugin "github.com/jxo-me/netx/x/recorder/plugin"
+	"github.com/168yy/netx/core/recorder"
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/internal/plugin"
+	xrecorder "github.com/168yy/netx/x/recorder"
+	recorderplugin "github.com/168yy/netx/x/recorder/plugin"
 )
 
 func ParseRecorder(cfg *config.RecorderConfig) (r recorder.IRecorder) {

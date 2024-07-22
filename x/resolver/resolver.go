@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/resolver"
-	resolver_util "github.com/jxo-me/netx/x/internal/util/resolver"
-	"github.com/jxo-me/netx/x/resolver/exchanger"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/resolver"
+	resolver_util "github.com/168yy/netx/x/internal/util/resolver"
+	"github.com/168yy/netx/x/resolver/exchanger"
 	"github.com/miekg/dns"
 )
 

@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strconv"
 
-	limiter "github.com/jxo-me/netx/core/limiter/traffic"
+	limiter "github.com/168yy/netx/core/limiter/traffic"
 	"golang.org/x/time/rate"
 )
 

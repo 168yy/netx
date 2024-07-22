@@ -1,8 +1,8 @@
 package rate
 
 import (
-	"github.com/jxo-me/netx/core/limiter/rate"
-	limiter "github.com/jxo-me/netx/core/limiter/rate"
+	"github.com/168yy/netx/core/limiter/rate"
+	limiter "github.com/168yy/netx/core/limiter/rate"
 )
 
 type RateLimitGenerator interface {

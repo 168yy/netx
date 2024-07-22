@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/recorder"
+	"github.com/168yy/netx/core/recorder"
 )
 
 type tcpRecorderOptions struct {

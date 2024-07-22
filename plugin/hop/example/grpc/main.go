@@ -9,8 +9,8 @@ import (
 	"net"
 	"sync/atomic"
 
-	"github.com/jxo-me/netx/plugin/hop/proto"
-	"github.com/jxo-me/netx/x/config"
+	"github.com/168yy/netx/plugin/hop/proto"
+	"github.com/168yy/netx/x/config"
 	"google.golang.org/grpc"
 )
 

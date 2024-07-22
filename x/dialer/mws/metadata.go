@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	mdata "github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
-	"github.com/jxo-me/netx/x/internal/util/mux"
+	mdata "github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
+	"github.com/168yy/netx/x/internal/util/mux"
 )
 
 const (

@@ -4,10 +4,10 @@ import (
 	"crypto/tls"
 	"strings"
 
-	"github.com/jxo-me/netx/core/observer"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/internal/plugin"
-	observerplugin "github.com/jxo-me/netx/x/observer/plugin"
+	"github.com/168yy/netx/core/observer"
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/internal/plugin"
+	observerplugin "github.com/168yy/netx/x/observer/plugin"
 )
 
 func ParseObserver(cfg *config.ObserverConfig) observer.IObserver {

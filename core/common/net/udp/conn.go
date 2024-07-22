@@ -6,7 +6,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/jxo-me/netx/core/common/bufpool"
+	"github.com/168yy/netx/core/common/bufpool"
 )
 
 // conn is a server side connection for UDP client peer, it implements net.Conn and net.PacketConn.

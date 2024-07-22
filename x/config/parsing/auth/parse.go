@@ -2,16 +2,16 @@ package auth
 
 import (
 	"crypto/tls"
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"net/url"
 
-	"github.com/jxo-me/netx/core/auth"
-	"github.com/jxo-me/netx/core/logger"
-	xauth "github.com/jxo-me/netx/x/auth"
-	authplugin "github.com/jxo-me/netx/x/auth/plugin"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/internal/loader"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/auth"
+	"github.com/168yy/netx/core/logger"
+	xauth "github.com/168yy/netx/x/auth"
+	authplugin "github.com/168yy/netx/x/auth/plugin"
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/internal/loader"
+	"github.com/168yy/netx/x/internal/plugin"
 )
 
 func ParseAuther(cfg *config.AutherConfig) auth.IAuthenticator {

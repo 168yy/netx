@@ -5,9 +5,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/jxo-me/netx/core/dialer"
-	md "github.com/jxo-me/netx/core/metadata"
-	pb "github.com/jxo-me/netx/x/internal/util/grpc/proto"
+	"github.com/168yy/netx/core/dialer"
+	md "github.com/168yy/netx/core/metadata"
+	pb "github.com/168yy/netx/x/internal/util/grpc/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/backoff"
 	"google.golang.org/grpc/credentials"

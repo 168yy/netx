@@ -5,11 +5,11 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/jxo-me/netx/core/logger"
-	mdata "github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/relay"
-	"github.com/jxo-me/netx/x/internal/util/mux"
-	mdx "github.com/jxo-me/netx/x/metadata"
+	"github.com/168yy/netx/core/logger"
+	mdata "github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/relay"
+	"github.com/168yy/netx/x/internal/util/mux"
+	mdx "github.com/168yy/netx/x/metadata"
 )
 
 type bindListener struct {

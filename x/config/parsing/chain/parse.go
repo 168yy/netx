@@ -1,15 +1,15 @@
 package chain
 
 import (
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/hop"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/x/app"
-	xchain "github.com/jxo-me/netx/x/chain"
-	"github.com/jxo-me/netx/x/config"
-	hopparser "github.com/jxo-me/netx/x/config/parsing/hop"
-	mdx "github.com/jxo-me/netx/x/metadata"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/hop"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/x/app"
+	xchain "github.com/168yy/netx/x/chain"
+	"github.com/168yy/netx/x/config"
+	hopparser "github.com/168yy/netx/x/config/parsing/hop"
+	mdx "github.com/168yy/netx/x/metadata"
 )
 
 func ParseChain(cfg *config.ChainConfig, log logger.ILogger) (chain.IChainer, error) {

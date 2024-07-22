@@ -8,11 +8,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
-	"github.com/jxo-me/netx/core/selector"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
+	"github.com/168yy/netx/core/selector"
+	ctxvalue "github.com/168yy/netx/x/ctx"
 )
 
 type roundRobinStrategy[T any] struct {

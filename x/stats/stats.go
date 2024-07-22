@@ -3,7 +3,7 @@ package stats
 import (
 	"sync/atomic"
 
-	"github.com/jxo-me/netx/core/observer"
+	"github.com/168yy/netx/core/observer"
 )
 
 type Kind int

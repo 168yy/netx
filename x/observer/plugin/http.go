@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/observer"
-	"github.com/jxo-me/netx/x/internal/plugin"
-	"github.com/jxo-me/netx/x/service"
-	"github.com/jxo-me/netx/x/stats"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/observer"
+	"github.com/168yy/netx/x/internal/plugin"
+	"github.com/168yy/netx/x/service"
+	"github.com/168yy/netx/x/stats"
 )
 
 type observeRequest struct {

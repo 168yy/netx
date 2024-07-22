@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/jxo-me/netx/core/limiter/traffic"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/internal/plugin"
-	xtraffic "github.com/jxo-me/netx/x/limiter/traffic"
+	"github.com/168yy/netx/core/limiter/traffic"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/internal/plugin"
+	xtraffic "github.com/168yy/netx/x/limiter/traffic"
 )
 
 type httpPluginRequest struct {

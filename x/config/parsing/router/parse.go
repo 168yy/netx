@@ -5,13 +5,13 @@ import (
 	"net"
 	"strings"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/router"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/internal/loader"
-	"github.com/jxo-me/netx/x/internal/plugin"
-	xrouter "github.com/jxo-me/netx/x/router"
-	routerplugin "github.com/jxo-me/netx/x/router/plugin"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/router"
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/internal/loader"
+	"github.com/168yy/netx/x/internal/plugin"
+	xrouter "github.com/168yy/netx/x/router"
+	routerplugin "github.com/168yy/netx/x/router/plugin"
 )
 
 func ParseRouter(cfg *config.RouterConfig) router.IRouter {

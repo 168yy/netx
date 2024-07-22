@@ -4,10 +4,10 @@ import (
 	"context"
 	"net"
 
-	"github.com/jxo-me/netx/core/dialer"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
-	serial "github.com/jxo-me/netx/x/internal/util/serial"
+	"github.com/168yy/netx/core/dialer"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
+	serial "github.com/168yy/netx/x/internal/util/serial"
 )
 
 type serialDialer struct {

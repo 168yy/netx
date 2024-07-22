@@ -12,9 +12,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/jxo-me/netx/core/connector"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
+	"github.com/168yy/netx/core/connector"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
 )
 
 type http2Connector struct {

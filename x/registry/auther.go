@@ -3,7 +3,7 @@ package registry
 import (
 	"context"
 
-	"github.com/jxo-me/netx/core/auth"
+	"github.com/168yy/netx/core/auth"
 )
 
 type AutherRegistry struct {

@@ -5,11 +5,11 @@ import (
 	"io"
 	"net"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/router"
-	"github.com/jxo-me/netx/plugin/router/proto"
-	"github.com/jxo-me/netx/x/internal/plugin"
-	xrouter "github.com/jxo-me/netx/x/router"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/router"
+	"github.com/168yy/netx/plugin/router/proto"
+	"github.com/168yy/netx/x/internal/plugin"
+	xrouter "github.com/168yy/netx/x/router"
 	"google.golang.org/grpc"
 )
 

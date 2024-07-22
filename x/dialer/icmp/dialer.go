@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jxo-me/netx/core/dialer"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
-	icmp_pkg "github.com/jxo-me/netx/x/internal/util/icmp"
+	"github.com/168yy/netx/core/dialer"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
+	icmp_pkg "github.com/168yy/netx/x/internal/util/icmp"
 	"github.com/quic-go/quic-go"
 	"golang.org/x/net/icmp"
 )

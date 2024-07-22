@@ -3,11 +3,11 @@ package api
 import (
 	"context"
 	"fmt"
+	telebot "github.com/168yy/gfbot"
+	"github.com/168yy/gfbot/middleware"
+	"github.com/168yy/netx/core/api"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/glog"
-	telebot "github.com/jxo-me/gfbot"
-	"github.com/jxo-me/gfbot/middleware"
-	"github.com/jxo-me/netx/core/api"
 	"log"
 )
 

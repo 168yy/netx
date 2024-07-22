@@ -4,18 +4,18 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"net/url"
 	"os"
 	"strconv"
 	"strings"
 	"time"
 
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/limiter/conn"
-	"github.com/jxo-me/netx/x/limiter/traffic"
-	mdx "github.com/jxo-me/netx/x/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/limiter/conn"
+	"github.com/168yy/netx/x/limiter/traffic"
+	mdx "github.com/168yy/netx/x/metadata"
 )
 
 var (

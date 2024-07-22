@@ -1,6 +1,6 @@
 package metrics
 
-import "github.com/jxo-me/netx/core/metrics"
+import "github.com/168yy/netx/core/metrics"
 
 var (
 	nopGauge    = &noopGauge{}

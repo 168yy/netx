@@ -14,14 +14,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jxo-me/netx/core/bypass"
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/handler"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
-	dissector "github.com/jxo-me/netx/tls-dissector"
-	xio "github.com/jxo-me/netx/x/internal/io"
-	netpkg "github.com/jxo-me/netx/x/internal/net"
+	"github.com/168yy/netx/core/bypass"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/handler"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
+	dissector "github.com/168yy/netx/tls-dissector"
+	xio "github.com/168yy/netx/x/internal/io"
+	netpkg "github.com/168yy/netx/x/internal/net"
 )
 
 type redirectHandler struct {

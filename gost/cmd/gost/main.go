@@ -4,8 +4,8 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"github.com/jxo-me/netx/x/app"
-	"github.com/jxo-me/netx/x/boot"
+	"github.com/168yy/netx/x/app"
+	"github.com/168yy/netx/x/boot"
 	"log"
 	_ "net/http/pprof"
 	"os"
@@ -14,9 +14,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/168yy/netx/core/logger"
+	xlogger "github.com/168yy/netx/x/logger"
 	"github.com/judwhite/go-svc"
-	"github.com/jxo-me/netx/core/logger"
-	xlogger "github.com/jxo-me/netx/x/logger"
 )
 
 var (

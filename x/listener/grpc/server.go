@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/logger"
-	pb "github.com/jxo-me/netx/x/internal/util/grpc/proto"
+	"github.com/168yy/netx/core/logger"
+	pb "github.com/168yy/netx/x/internal/util/grpc/proto"
 	"google.golang.org/grpc/peer"
 )
 

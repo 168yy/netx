@@ -1,7 +1,7 @@
 package http2
 
 import (
-	mdata "github.com/jxo-me/netx/core/metadata"
+	mdata "github.com/168yy/netx/core/metadata"
 )
 
 type metadata struct{}

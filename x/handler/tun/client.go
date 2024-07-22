@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/common/bufpool"
-	"github.com/jxo-me/netx/core/logger"
-	tun_util "github.com/jxo-me/netx/x/internal/util/tun"
+	"github.com/168yy/netx/core/common/bufpool"
+	"github.com/168yy/netx/core/logger"
+	tun_util "github.com/168yy/netx/x/internal/util/tun"
 	"github.com/songgao/water/waterutil"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"

@@ -3,7 +3,7 @@ package wrapper
 import (
 	"net"
 
-	limiter "github.com/jxo-me/netx/core/limiter/conn"
+	limiter "github.com/168yy/netx/core/limiter/conn"
 )
 
 type listener struct {

@@ -4,10 +4,10 @@ import (
 	"context"
 	"io"
 
-	"github.com/jxo-me/netx/core/admission"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/plugin/admission/proto"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/admission"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/plugin/admission/proto"
+	"github.com/168yy/netx/x/internal/plugin"
 	"google.golang.org/grpc"
 )
 

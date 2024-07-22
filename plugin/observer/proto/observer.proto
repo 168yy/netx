@@ -4,7 +4,7 @@
 
 syntax = "proto3";
 package proto;
-option go_package = "github.com/jxo-me/netx/plugin/observer/proto";
+option go_package = "github.com/168yy/netx/plugin/observer/proto";
 
 message ObserveRequest {
 	repeated Event events = 1;

@@ -6,11 +6,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/common/bufpool"
-	"github.com/jxo-me/netx/core/connector"
-	md "github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/gosocks5"
-	"github.com/jxo-me/netx/x/internal/util/ss"
+	"github.com/168yy/netx/core/common/bufpool"
+	"github.com/168yy/netx/core/connector"
+	md "github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/gosocks5"
+	"github.com/168yy/netx/x/internal/util/ss"
 	"github.com/shadowsocks/go-shadowsocks2/core"
 )
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/jxo-me/netx/core/metadata"
+	"github.com/168yy/netx/core/metadata"
 )
 
 // IConnector is responsible for connecting to the destination address.

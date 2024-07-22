@@ -3,9 +3,9 @@ package bot
 import (
 	"flag"
 	"fmt"
+	telebot "github.com/168yy/gfbot"
+	"github.com/168yy/netx/x/config"
 	"github.com/gogf/gf/v2/util/gconv"
-	telebot "github.com/jxo-me/gfbot"
-	"github.com/jxo-me/netx/x/config"
 	"strings"
 )
 

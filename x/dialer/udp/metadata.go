@@ -3,7 +3,7 @@ package udp
 import (
 	"time"
 
-	md "github.com/jxo-me/netx/core/metadata"
+	md "github.com/168yy/netx/core/metadata"
 )
 
 const (

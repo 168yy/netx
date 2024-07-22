@@ -3,8 +3,8 @@ package serial
 import (
 	"time"
 
-	md "github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
+	md "github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
 )
 
 type metadata struct {

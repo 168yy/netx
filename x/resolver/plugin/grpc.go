@@ -5,11 +5,11 @@ import (
 	"io"
 	"net"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/resolver"
-	"github.com/jxo-me/netx/plugin/resolver/proto"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/resolver"
+	"github.com/168yy/netx/plugin/resolver/proto"
+	ctxvalue "github.com/168yy/netx/x/ctx"
+	"github.com/168yy/netx/x/internal/plugin"
 	"google.golang.org/grpc"
 )
 

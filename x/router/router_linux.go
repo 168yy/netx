@@ -3,7 +3,7 @@ package router
 import (
 	"fmt"
 
-	"github.com/jxo-me/netx/core/router"
+	"github.com/168yy/netx/core/router"
 	"github.com/vishvananda/netlink"
 )
 

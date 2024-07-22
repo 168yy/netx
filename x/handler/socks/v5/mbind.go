@@ -6,10 +6,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/gosocks5"
-	xnet "github.com/jxo-me/netx/x/internal/net"
-	"github.com/jxo-me/netx/x/internal/util/mux"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/gosocks5"
+	xnet "github.com/168yy/netx/x/internal/net"
+	"github.com/168yy/netx/x/internal/util/mux"
 )
 
 func (h *socks5Handler) handleMuxBind(ctx context.Context, conn net.Conn, network, address string, log logger.ILogger) error {

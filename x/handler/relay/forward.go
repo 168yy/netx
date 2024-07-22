@@ -7,14 +7,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/limiter/traffic"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/relay"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
-	netpkg "github.com/jxo-me/netx/x/internal/net"
-	"github.com/jxo-me/netx/x/limiter/traffic/wrapper"
-	"github.com/jxo-me/netx/x/stats"
-	stats_wrapper "github.com/jxo-me/netx/x/stats/wrapper"
+	"github.com/168yy/netx/core/limiter/traffic"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/relay"
+	ctxvalue "github.com/168yy/netx/x/ctx"
+	netpkg "github.com/168yy/netx/x/internal/net"
+	"github.com/168yy/netx/x/limiter/traffic/wrapper"
+	"github.com/168yy/netx/x/stats"
+	stats_wrapper "github.com/168yy/netx/x/stats/wrapper"
 )
 
 func (h *relayHandler) handleForward(ctx context.Context, conn net.Conn, network string, log logger.ILogger) error {

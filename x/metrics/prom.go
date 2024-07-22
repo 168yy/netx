@@ -3,7 +3,7 @@ package metrics
 import (
 	"os"
 
-	"github.com/jxo-me/netx/core/metrics"
+	"github.com/168yy/netx/core/metrics"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

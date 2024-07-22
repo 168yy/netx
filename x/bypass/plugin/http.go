@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/jxo-me/netx/core/bypass"
-	"github.com/jxo-me/netx/core/logger"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/bypass"
+	"github.com/168yy/netx/core/logger"
+	ctxvalue "github.com/168yy/netx/x/ctx"
+	"github.com/168yy/netx/x/internal/plugin"
 )
 
 type httpPluginRequest struct {

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"net"
 
-	"github.com/jxo-me/netx/core/connector"
-	md "github.com/jxo-me/netx/core/metadata"
-	ssh_util "github.com/jxo-me/netx/x/internal/util/ssh"
+	"github.com/168yy/netx/core/connector"
+	md "github.com/168yy/netx/core/metadata"
+	ssh_util "github.com/168yy/netx/x/internal/util/ssh"
 )
 
 type sshdConnector struct {

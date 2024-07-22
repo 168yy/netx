@@ -7,7 +7,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/jxo-me/netx/plugin/observer/proto"
+	"github.com/168yy/netx/plugin/observer/proto"
 	"google.golang.org/grpc"
 )
 

@@ -5,8 +5,8 @@ import (
 	"net"
 	"syscall"
 
-	limiter "github.com/jxo-me/netx/core/limiter/conn"
-	"github.com/jxo-me/netx/core/metadata"
+	limiter "github.com/168yy/netx/core/limiter/conn"
+	"github.com/168yy/netx/core/metadata"
 )
 
 var (

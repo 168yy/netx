@@ -10,7 +10,7 @@ import (
 	"net"
 	"strings"
 
-	dissector "github.com/jxo-me/netx/tls-dissector"
+	dissector "github.com/168yy/netx/tls-dissector"
 )
 
 type sniClientConn struct {

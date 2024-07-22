@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/jxo-me/netx/core/metadata"
+	"github.com/168yy/netx/core/metadata"
 )
 
 // IDialer Transporter is responsible for dialing to the proxy server.

@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	limiter "github.com/jxo-me/netx/core/limiter/rate"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/internal/loader"
+	limiter "github.com/168yy/netx/core/limiter/rate"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/internal/loader"
 	"github.com/yl2chen/cidranger"
 )
 

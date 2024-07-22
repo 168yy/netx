@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/jxo-me/netx/core/listener"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
-	xnet "github.com/jxo-me/netx/x/internal/net"
-	mdx "github.com/jxo-me/netx/x/metadata"
+	"github.com/168yy/netx/core/listener"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
+	xnet "github.com/168yy/netx/x/internal/net"
+	mdx "github.com/168yy/netx/x/metadata"
 	"github.com/quic-go/quic-go"
 	"github.com/quic-go/quic-go/http3"
 )

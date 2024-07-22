@@ -3,7 +3,7 @@ package mtcp
 import (
 	"net"
 
-	"github.com/jxo-me/netx/x/internal/util/mux"
+	"github.com/168yy/netx/x/internal/util/mux"
 )
 
 type muxSession struct {

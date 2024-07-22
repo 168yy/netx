@@ -4,17 +4,17 @@ import (
 	"crypto/tls"
 	"strings"
 
-	"github.com/jxo-me/netx/core/limiter/conn"
-	"github.com/jxo-me/netx/core/limiter/rate"
-	"github.com/jxo-me/netx/core/limiter/traffic"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/internal/loader"
-	"github.com/jxo-me/netx/x/internal/plugin"
-	xconn "github.com/jxo-me/netx/x/limiter/conn"
-	xrate "github.com/jxo-me/netx/x/limiter/rate"
-	xtraffic "github.com/jxo-me/netx/x/limiter/traffic"
-	trafficplugin "github.com/jxo-me/netx/x/limiter/traffic/plugin"
+	"github.com/168yy/netx/core/limiter/conn"
+	"github.com/168yy/netx/core/limiter/rate"
+	"github.com/168yy/netx/core/limiter/traffic"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/internal/loader"
+	"github.com/168yy/netx/x/internal/plugin"
+	xconn "github.com/168yy/netx/x/limiter/conn"
+	xrate "github.com/168yy/netx/x/limiter/rate"
+	xtraffic "github.com/168yy/netx/x/limiter/traffic"
+	trafficplugin "github.com/168yy/netx/x/limiter/traffic/plugin"
 )
 
 func ParseTrafficLimiter(cfg *config.LimiterConfig) (lim traffic.ITrafficLimiter) {

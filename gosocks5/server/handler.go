@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/jxo-me/netx/gosocks5"
+	"github.com/168yy/netx/gosocks5"
 )
 
 var (

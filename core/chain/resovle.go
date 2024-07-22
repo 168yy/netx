@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/jxo-me/netx/core/hosts"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/resolver"
+	"github.com/168yy/netx/core/hosts"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/resolver"
 )
 
 func Resolve(ctx context.Context, network, addr string, r resolver.IResolver, hosts hosts.IHostMapper, log logger.ILogger) (string, error) {

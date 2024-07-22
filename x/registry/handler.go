@@ -1,8 +1,8 @@
 package registry
 
 import (
-	"github.com/jxo-me/netx/core/handler"
-	"github.com/jxo-me/netx/core/logger"
+	"github.com/168yy/netx/core/handler"
+	"github.com/168yy/netx/core/logger"
 )
 
 type HandlerRegistry struct {

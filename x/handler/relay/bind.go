@@ -6,16 +6,16 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/handler"
-	"github.com/jxo-me/netx/core/listener"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/relay"
-	xnet "github.com/jxo-me/netx/x/internal/net"
-	"github.com/jxo-me/netx/x/internal/net/udp"
-	"github.com/jxo-me/netx/x/internal/util/mux"
-	relay_util "github.com/jxo-me/netx/x/internal/util/relay"
-	metrics "github.com/jxo-me/netx/x/metrics/wrapper"
-	xservice "github.com/jxo-me/netx/x/service"
+	"github.com/168yy/netx/core/handler"
+	"github.com/168yy/netx/core/listener"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/relay"
+	xnet "github.com/168yy/netx/x/internal/net"
+	"github.com/168yy/netx/x/internal/net/udp"
+	"github.com/168yy/netx/x/internal/util/mux"
+	relay_util "github.com/168yy/netx/x/internal/util/relay"
+	metrics "github.com/168yy/netx/x/metrics/wrapper"
+	xservice "github.com/168yy/netx/x/service"
 )
 
 func (h *relayHandler) handleBind(ctx context.Context, conn net.Conn, network, address string, log logger.ILogger) error {

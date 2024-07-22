@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/168yy/netx/core/auth"
+	"github.com/168yy/netx/core/logger"
 	"github.com/gin-gonic/gin"
-	"github.com/jxo-me/netx/core/auth"
-	"github.com/jxo-me/netx/core/logger"
 )
 
 func mwLogger() gin.HandlerFunc {

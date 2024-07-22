@@ -1,3 +1,3 @@
-module github.com/jxo-me/netx/gosocks4
+module github.com/168yy/netx/gosocks4
 
 go 1.20

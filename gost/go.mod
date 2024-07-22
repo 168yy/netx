@@ -1,25 +1,25 @@
-module github.com/jxo-me/netx/gost
+module github.com/168yy/netx/gost
 
 go 1.22
 
 toolchain go1.22.4
 
 replace (
-	github.com/jxo-me/netx/api => ../api
-	github.com/jxo-me/netx/core => ../core
-	github.com/jxo-me/netx/gosocks4 => ../gosocks4
-	github.com/jxo-me/netx/gosocks5 => ../gosocks5
-	github.com/jxo-me/netx/plugin => ../plugin
-	github.com/jxo-me/netx/relay => ../relay
-	github.com/jxo-me/netx/tls-dissector => ../tls-dissector
-	github.com/jxo-me/netx/x => ../x
+	github.com/168yy/netx/api => ../api
+	github.com/168yy/netx/core => ../core
+	github.com/168yy/netx/gosocks4 => ../gosocks4
+	github.com/168yy/netx/gosocks5 => ../gosocks5
+	github.com/168yy/netx/plugin => ../plugin
+	github.com/168yy/netx/relay => ../relay
+	github.com/168yy/netx/tls-dissector => ../tls-dissector
+	github.com/168yy/netx/x => ../x
 )
 
 require (
 	github.com/judwhite/go-svc v1.2.1
-	github.com/jxo-me/netx/api v0.0.7
-	github.com/jxo-me/netx/core v0.0.10
-	github.com/jxo-me/netx/x v0.0.14
+	github.com/168yy/netx/api v0.0.7
+	github.com/168yy/netx/core v0.0.10
+	github.com/168yy/netx/x v0.0.14
 )
 
 require (
@@ -51,12 +51,12 @@ require (
 	github.com/gorilla/websocket v1.5.1 // indirect
 	github.com/grokify/html-strip-tags-go v0.1.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/jxo-me/gfbot v0.1.19 // indirect
-	github.com/jxo-me/netx/gosocks4 v0.0.1 // indirect
-	github.com/jxo-me/netx/gosocks5 v0.0.2 // indirect
-	github.com/jxo-me/netx/plugin v0.0.6 // indirect
-	github.com/jxo-me/netx/relay v0.0.2 // indirect
-	github.com/jxo-me/netx/tls-dissector v0.0.1 // indirect
+	github.com/168yy/gfbot v0.1.19 // indirect
+	github.com/168yy/netx/gosocks4 v0.0.1 // indirect
+	github.com/168yy/netx/gosocks5 v0.0.2 // indirect
+	github.com/168yy/netx/plugin v0.0.6 // indirect
+	github.com/168yy/netx/relay v0.0.2 // indirect
+	github.com/168yy/netx/tls-dissector v0.0.1 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
 	github.com/klauspost/reedsolomon v1.12.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect

@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/168yy/netx/core/dialer"
+	md "github.com/168yy/netx/core/metadata"
+	ws_util "github.com/168yy/netx/x/internal/util/ws"
 	"github.com/gorilla/websocket"
-	"github.com/jxo-me/netx/core/dialer"
-	md "github.com/jxo-me/netx/core/metadata"
-	ws_util "github.com/jxo-me/netx/x/internal/util/ws"
 )
 
 type wsDialer struct {

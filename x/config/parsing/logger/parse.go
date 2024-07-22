@@ -1,14 +1,14 @@
 package logger
 
 import (
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"io"
 	"os"
 	"path/filepath"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/config"
-	xlogger "github.com/jxo-me/netx/x/logger"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/config"
+	xlogger "github.com/168yy/netx/x/logger"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 

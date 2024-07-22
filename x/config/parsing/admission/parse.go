@@ -2,16 +2,16 @@ package admission
 
 import (
 	"crypto/tls"
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"strings"
 
-	"github.com/jxo-me/netx/core/admission"
-	"github.com/jxo-me/netx/core/logger"
-	xadmission "github.com/jxo-me/netx/x/admission"
-	admissionplugin "github.com/jxo-me/netx/x/admission/plugin"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/internal/loader"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/admission"
+	"github.com/168yy/netx/core/logger"
+	xadmission "github.com/168yy/netx/x/admission"
+	admissionplugin "github.com/168yy/netx/x/admission/plugin"
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/internal/loader"
+	"github.com/168yy/netx/x/internal/plugin"
 )
 
 func ParseAdmission(cfg *config.AdmissionConfig) admission.IAdmission {

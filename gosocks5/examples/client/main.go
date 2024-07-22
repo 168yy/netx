@@ -4,9 +4,9 @@ import (
 	"flag"
 	"log"
 
-	"github.com/jxo-me/netx/gosocks5"
+	"github.com/168yy/netx/gosocks5"
 
-	"github.com/jxo-me/netx/gosocks5/client"
+	"github.com/168yy/netx/gosocks5/client"
 )
 
 var (

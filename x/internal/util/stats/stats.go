@@ -3,8 +3,8 @@ package stats
 import (
 	"sync"
 
-	"github.com/jxo-me/netx/core/observer"
-	"github.com/jxo-me/netx/x/stats"
+	"github.com/168yy/netx/core/observer"
+	"github.com/168yy/netx/x/stats"
 )
 
 type HandlerStats struct {

@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jxo-me/netx/core/dialer"
-	md "github.com/jxo-me/netx/core/metadata"
-	ssh_util "github.com/jxo-me/netx/x/internal/util/ssh"
+	"github.com/168yy/netx/core/dialer"
+	md "github.com/168yy/netx/core/metadata"
+	ssh_util "github.com/168yy/netx/x/internal/util/ssh"
 	"golang.org/x/crypto/ssh"
 )
 

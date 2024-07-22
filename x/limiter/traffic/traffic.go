@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
+	limiter "github.com/168yy/netx/core/limiter/traffic"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/internal/loader"
 	"github.com/alecthomas/units"
-	limiter "github.com/jxo-me/netx/core/limiter/traffic"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/internal/loader"
 	"github.com/patrickmn/go-cache"
 	"github.com/yl2chen/cidranger"
 )

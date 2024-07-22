@@ -4,13 +4,13 @@ import (
 	"crypto/tls"
 	"strings"
 
-	"github.com/jxo-me/netx/core/ingress"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/config"
-	xingress "github.com/jxo-me/netx/x/ingress"
-	ingressplugin "github.com/jxo-me/netx/x/ingress/plugin"
-	"github.com/jxo-me/netx/x/internal/loader"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/ingress"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/config"
+	xingress "github.com/168yy/netx/x/ingress"
+	ingressplugin "github.com/168yy/netx/x/ingress/plugin"
+	"github.com/168yy/netx/x/internal/loader"
+	"github.com/168yy/netx/x/internal/plugin"
 )
 
 func ParseIngress(cfg *config.IngressConfig) ingress.IIngress {

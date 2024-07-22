@@ -3,7 +3,7 @@ package registry
 import (
 	"context"
 
-	"github.com/jxo-me/netx/core/sd"
+	"github.com/168yy/netx/core/sd"
 )
 
 type SdRegistry struct {

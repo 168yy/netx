@@ -6,12 +6,12 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/jxo-me/netx/core/common/net/udp"
-	"github.com/jxo-me/netx/core/connector"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/relay"
-	"github.com/jxo-me/netx/x/internal/util/mux"
-	relay_util "github.com/jxo-me/netx/x/internal/util/relay"
+	"github.com/168yy/netx/core/common/net/udp"
+	"github.com/168yy/netx/core/connector"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/relay"
+	"github.com/168yy/netx/x/internal/util/mux"
+	relay_util "github.com/168yy/netx/x/internal/util/relay"
 )
 
 // Bind implements connector.IBinder.

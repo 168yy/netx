@@ -2,7 +2,7 @@ package bot
 
 import (
 	"fmt"
-	telebot "github.com/jxo-me/gfbot"
+	telebot "github.com/168yy/gfbot"
 	"strings"
 )
 

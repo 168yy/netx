@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jxo-me/netx/core/hosts"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/internal/loader"
+	"github.com/168yy/netx/core/hosts"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/internal/loader"
 )
 
 type Mapping struct {

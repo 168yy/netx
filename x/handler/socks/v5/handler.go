@@ -6,13 +6,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/handler"
-	md "github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/gosocks5"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
-	"github.com/jxo-me/netx/x/internal/util/socks"
-	stats_util "github.com/jxo-me/netx/x/internal/util/stats"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/handler"
+	md "github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/gosocks5"
+	ctxvalue "github.com/168yy/netx/x/ctx"
+	"github.com/168yy/netx/x/internal/util/socks"
+	stats_util "github.com/168yy/netx/x/internal/util/stats"
 )
 
 var (

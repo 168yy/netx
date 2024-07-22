@@ -1,7 +1,7 @@
 package traffic
 
 import (
-	limiter "github.com/jxo-me/netx/core/limiter/traffic"
+	limiter "github.com/168yy/netx/core/limiter/traffic"
 )
 
 type limitGenerator struct {

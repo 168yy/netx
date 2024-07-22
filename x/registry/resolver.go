@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/jxo-me/netx/core/resolver"
+	"github.com/168yy/netx/core/resolver"
 )
 
 type ResolverRegistry struct {

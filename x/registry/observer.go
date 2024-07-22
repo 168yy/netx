@@ -3,7 +3,7 @@ package registry
 import (
 	"context"
 
-	"github.com/jxo-me/netx/core/observer"
+	"github.com/168yy/netx/core/observer"
 )
 
 type ObserverRegistry struct {

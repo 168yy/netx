@@ -1,8 +1,8 @@
 package registry
 
 import (
-	"github.com/jxo-me/netx/core/dialer"
-	"github.com/jxo-me/netx/core/logger"
+	"github.com/168yy/netx/core/dialer"
+	"github.com/168yy/netx/core/logger"
 )
 
 type DialerRegistry struct {

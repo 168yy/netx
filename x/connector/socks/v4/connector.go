@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/jxo-me/netx/core/connector"
-	md "github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/gosocks4"
+	"github.com/168yy/netx/core/connector"
+	md "github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/gosocks4"
 )
 
 type socks4Connector struct {

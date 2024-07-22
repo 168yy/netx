@@ -5,13 +5,13 @@ import (
 	"net"
 	"strings"
 
-	"github.com/jxo-me/netx/core/hosts"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/config"
-	xhosts "github.com/jxo-me/netx/x/hosts"
-	hostsplugin "github.com/jxo-me/netx/x/hosts/plugin"
-	"github.com/jxo-me/netx/x/internal/loader"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/hosts"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/config"
+	xhosts "github.com/168yy/netx/x/hosts"
+	hostsplugin "github.com/168yy/netx/x/hosts/plugin"
+	"github.com/168yy/netx/x/internal/loader"
+	"github.com/168yy/netx/x/internal/plugin"
 )
 
 func ParseHostMapper(cfg *config.HostsConfig) hosts.IHostMapper {

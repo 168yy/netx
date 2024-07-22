@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/jxo-me/netx/core/common/net/dialer"
-	"github.com/jxo-me/netx/core/logger"
+	"github.com/168yy/netx/core/common/net/dialer"
+	"github.com/168yy/netx/core/logger"
 )
 
 type Options struct {

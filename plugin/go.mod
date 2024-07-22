@@ -1,13 +1,13 @@
-module github.com/jxo-me/netx/plugin
+module github.com/168yy/netx/plugin
 
 go 1.22
 
 toolchain go1.22.4
 
-//replace github.com/jxo-me/netx/x => ../x
+//replace github.com/168yy/netx/x => ../x
 
 require (
-	github.com/jxo-me/netx/x v0.0.8
+	github.com/168yy/netx/x v0.0.8
 	google.golang.org/grpc v1.62.0
 	google.golang.org/protobuf v1.33.0
 )

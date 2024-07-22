@@ -3,17 +3,17 @@ package auto
 import (
 	"bufio"
 	"context"
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/handler"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/gosocks4"
-	"github.com/jxo-me/netx/gosocks5"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
-	netpkg "github.com/jxo-me/netx/x/internal/net"
+	"github.com/168yy/netx/core/handler"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/gosocks4"
+	"github.com/168yy/netx/gosocks5"
+	ctxvalue "github.com/168yy/netx/x/ctx"
+	netpkg "github.com/168yy/netx/x/internal/net"
 )
 
 type autoHandler struct {

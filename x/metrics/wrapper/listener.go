@@ -3,7 +3,7 @@ package wrapper
 import (
 	"net"
 
-	xmetrics "github.com/jxo-me/netx/x/metrics"
+	xmetrics "github.com/168yy/netx/x/metrics"
 )
 
 type listener struct {

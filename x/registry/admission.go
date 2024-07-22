@@ -3,7 +3,7 @@ package registry
 import (
 	"context"
 
-	"github.com/jxo-me/netx/core/admission"
+	"github.com/168yy/netx/core/admission"
 )
 
 type AdmissionRegistry struct {

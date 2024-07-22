@@ -4,11 +4,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/jxo-me/netx/core/bypass"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/plugin/bypass/proto"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/bypass"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/plugin/bypass/proto"
+	ctxvalue "github.com/168yy/netx/x/ctx"
+	"github.com/168yy/netx/x/internal/plugin"
 	"google.golang.org/grpc"
 )
 

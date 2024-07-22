@@ -2,11 +2,11 @@ package boot
 
 import (
 	"fmt"
-	"github.com/jxo-me/netx/core/app"
-	"github.com/jxo-me/netx/core/connector"
-	"github.com/jxo-me/netx/core/dialer"
-	"github.com/jxo-me/netx/core/handler"
-	"github.com/jxo-me/netx/core/listener"
+	"github.com/168yy/netx/core/app"
+	"github.com/168yy/netx/core/connector"
+	"github.com/168yy/netx/core/dialer"
+	"github.com/168yy/netx/core/handler"
+	"github.com/168yy/netx/core/listener"
 )
 
 var (

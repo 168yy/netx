@@ -5,10 +5,10 @@ import (
 	"net"
 	"net/http"
 
+	"github.com/168yy/netx/core/auth"
+	"github.com/168yy/netx/core/service"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/jxo-me/netx/core/auth"
-	"github.com/jxo-me/netx/core/service"
 )
 
 var (

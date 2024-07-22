@@ -4,7 +4,7 @@ import (
 	"sort"
 	"time"
 
-	limiter "github.com/jxo-me/netx/core/limiter/rate"
+	limiter "github.com/168yy/netx/core/limiter/rate"
 	"golang.org/x/time/rate"
 )
 

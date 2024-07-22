@@ -5,14 +5,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/listener"
-	"github.com/jxo-me/netx/core/logger"
-	mdata "github.com/jxo-me/netx/core/metadata"
-	xnet "github.com/jxo-me/netx/x/internal/net"
-	limiter "github.com/jxo-me/netx/x/limiter/traffic/wrapper"
-	mdx "github.com/jxo-me/netx/x/metadata"
-	metrics "github.com/jxo-me/netx/x/metrics/wrapper"
-	stats "github.com/jxo-me/netx/x/stats/wrapper"
+	"github.com/168yy/netx/core/listener"
+	"github.com/168yy/netx/core/logger"
+	mdata "github.com/168yy/netx/core/metadata"
+	xnet "github.com/168yy/netx/x/internal/net"
+	limiter "github.com/168yy/netx/x/limiter/traffic/wrapper"
+	mdx "github.com/168yy/netx/x/metadata"
+	metrics "github.com/168yy/netx/x/metrics/wrapper"
+	stats "github.com/168yy/netx/x/stats/wrapper"
 )
 
 type tapListener struct {

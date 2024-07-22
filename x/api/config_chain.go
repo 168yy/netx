@@ -2,14 +2,14 @@ package api
 
 import (
 	"fmt"
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"net/http"
 	"strings"
 
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/config"
+	parser "github.com/168yy/netx/x/config/parsing/chain"
 	"github.com/gin-gonic/gin"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/config"
-	parser "github.com/jxo-me/netx/x/config/parsing/chain"
 )
 
 // swagger:parameters createChainRequest

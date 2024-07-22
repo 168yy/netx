@@ -1,7 +1,7 @@
 package bot
 
 import (
-	telebot "github.com/jxo-me/gfbot"
+	telebot "github.com/168yy/gfbot"
 )
 
 var (

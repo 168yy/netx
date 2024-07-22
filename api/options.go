@@ -1,6 +1,6 @@
 package api
 
-import "github.com/jxo-me/netx/core/auth"
+import "github.com/168yy/netx/core/auth"
 
 type options struct {
 	accessLog  bool

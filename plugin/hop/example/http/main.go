@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"sync/atomic"
 
-	"github.com/jxo-me/netx/x/config"
+	"github.com/168yy/netx/x/config"
 )
 
 var (

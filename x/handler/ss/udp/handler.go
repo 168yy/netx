@@ -6,13 +6,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/common/bufpool"
-	"github.com/jxo-me/netx/core/handler"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/x/internal/util/relay"
-	"github.com/jxo-me/netx/x/internal/util/ss"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/common/bufpool"
+	"github.com/168yy/netx/core/handler"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/x/internal/util/relay"
+	"github.com/168yy/netx/x/internal/util/ss"
 	"github.com/shadowsocks/go-shadowsocks2/core"
 )
 

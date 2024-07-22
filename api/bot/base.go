@@ -3,7 +3,7 @@ package bot
 import (
 	"bufio"
 	"bytes"
-	"github.com/jxo-me/netx/api/handler"
+	"github.com/168yy/netx/api/handler"
 )
 
 func ConvertJsonMsg(d any) (string, error) {

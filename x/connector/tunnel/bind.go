@@ -6,9 +6,9 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/jxo-me/netx/core/connector"
-	"github.com/jxo-me/netx/relay"
-	"github.com/jxo-me/netx/x/internal/util/mux"
+	"github.com/168yy/netx/core/connector"
+	"github.com/168yy/netx/relay"
+	"github.com/168yy/netx/x/internal/util/mux"
 )
 
 // Bind implements connector.Binder.

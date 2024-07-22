@@ -4,11 +4,11 @@ import (
 	"errors"
 	"time"
 
+	mdata "github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
+	"github.com/168yy/netx/relay"
+	"github.com/168yy/netx/x/internal/util/mux"
 	"github.com/google/uuid"
-	mdata "github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
-	"github.com/jxo-me/netx/relay"
-	"github.com/jxo-me/netx/x/internal/util/mux"
 )
 
 var (

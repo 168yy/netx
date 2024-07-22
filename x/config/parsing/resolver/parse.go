@@ -2,16 +2,16 @@ package resolver
 
 import (
 	"crypto/tls"
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"net"
 	"strings"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/resolver"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/internal/plugin"
-	xresolver "github.com/jxo-me/netx/x/resolver"
-	resolverplugin "github.com/jxo-me/netx/x/resolver/plugin"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/resolver"
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/internal/plugin"
+	xresolver "github.com/168yy/netx/x/resolver"
+	resolverplugin "github.com/168yy/netx/x/resolver/plugin"
 )
 
 func ParseResolver(cfg *config.ResolverConfig) (resolver.IResolver, error) {

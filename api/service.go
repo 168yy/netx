@@ -2,11 +2,11 @@ package api
 
 import (
 	"context"
+	"github.com/168yy/netx/api/bot"
+	"github.com/168yy/netx/api/handler"
+	"github.com/168yy/netx/core/api"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
-	"github.com/jxo-me/netx/api/bot"
-	"github.com/jxo-me/netx/api/handler"
-	"github.com/jxo-me/netx/core/api"
 	"net"
 )
 

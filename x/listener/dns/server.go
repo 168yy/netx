@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	xnet "github.com/jxo-me/netx/x/internal/net"
+	xnet "github.com/168yy/netx/x/internal/net"
 )
 
 type Server interface {

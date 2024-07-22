@@ -6,12 +6,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/limiter/traffic"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/relay"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
-	xnet "github.com/jxo-me/netx/x/internal/net"
-	"github.com/jxo-me/netx/x/limiter/traffic/wrapper"
+	"github.com/168yy/netx/core/limiter/traffic"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/relay"
+	ctxvalue "github.com/168yy/netx/x/ctx"
+	xnet "github.com/168yy/netx/x/internal/net"
+	"github.com/168yy/netx/x/limiter/traffic/wrapper"
 )
 
 func (h *tunnelHandler) handleConnect(ctx context.Context, req *relay.Request, conn net.Conn, network, srcAddr string, dstAddr string, tunnelID relay.TunnelID, log logger.ILogger) error {

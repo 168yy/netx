@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/handler"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
-	netpkg "github.com/jxo-me/netx/x/internal/net"
-	sshd_util "github.com/jxo-me/netx/x/internal/util/sshd"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/handler"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
+	netpkg "github.com/168yy/netx/x/internal/net"
+	sshd_util "github.com/168yy/netx/x/internal/util/sshd"
 	"golang.org/x/crypto/ssh"
 )
 

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	mdata "github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
-	ssh_util "github.com/jxo-me/netx/x/internal/util/ssh"
+	mdata "github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
+	ssh_util "github.com/168yy/netx/x/internal/util/ssh"
 	"github.com/mitchellh/go-homedir"
 	"github.com/zalando/go-keyring"
 	"golang.org/x/crypto/ssh"

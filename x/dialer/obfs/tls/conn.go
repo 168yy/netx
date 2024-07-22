@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	dissector "github.com/jxo-me/netx/tls-dissector"
+	dissector "github.com/168yy/netx/tls-dissector"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	mdata "github.com/jxo-me/netx/core/metadata"
+	mdata "github.com/168yy/netx/core/metadata"
 )
 
 // a dummy HTTP2 server conn used by HTTP2 handler

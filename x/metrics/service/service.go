@@ -4,8 +4,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/jxo-me/netx/core/auth"
-	"github.com/jxo-me/netx/core/service"
+	"github.com/168yy/netx/core/auth"
+	"github.com/168yy/netx/core/service"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

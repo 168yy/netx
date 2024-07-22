@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	xnet "github.com/jxo-me/netx/core/common/net"
-	"github.com/jxo-me/netx/core/logger"
+	xnet "github.com/168yy/netx/core/common/net"
+	"github.com/168yy/netx/core/logger"
 	"github.com/vishvananda/netns"
 )
 

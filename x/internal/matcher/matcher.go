@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	xnet "github.com/jxo-me/netx/x/internal/net"
+	xnet "github.com/168yy/netx/x/internal/net"
 	"github.com/gobwas/glob"
 	"github.com/yl2chen/cidranger"
 )

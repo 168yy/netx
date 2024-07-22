@@ -8,15 +8,15 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/limiter/traffic"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/relay"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
-	xnet "github.com/jxo-me/netx/x/internal/net"
-	serial "github.com/jxo-me/netx/x/internal/util/serial"
-	"github.com/jxo-me/netx/x/limiter/traffic/wrapper"
-	"github.com/jxo-me/netx/x/stats"
-	stats_wrapper "github.com/jxo-me/netx/x/stats/wrapper"
+	"github.com/168yy/netx/core/limiter/traffic"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/relay"
+	ctxvalue "github.com/168yy/netx/x/ctx"
+	xnet "github.com/168yy/netx/x/internal/net"
+	serial "github.com/168yy/netx/x/internal/util/serial"
+	"github.com/168yy/netx/x/limiter/traffic/wrapper"
+	"github.com/168yy/netx/x/stats"
+	stats_wrapper "github.com/168yy/netx/x/stats/wrapper"
 )
 
 func (h *relayHandler) handleConnect(ctx context.Context, conn net.Conn, network, address string, log logger.ILogger) (err error) {

@@ -1,18 +1,18 @@
 package tunnel
 
 import (
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"strings"
 	"time"
 
-	"github.com/jxo-me/netx/core/ingress"
-	"github.com/jxo-me/netx/core/logger"
-	mdata "github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
-	"github.com/jxo-me/netx/core/sd"
-	"github.com/jxo-me/netx/relay"
-	xingress "github.com/jxo-me/netx/x/ingress"
-	"github.com/jxo-me/netx/x/internal/util/mux"
+	"github.com/168yy/netx/core/ingress"
+	"github.com/168yy/netx/core/logger"
+	mdata "github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
+	"github.com/168yy/netx/core/sd"
+	"github.com/168yy/netx/relay"
+	xingress "github.com/168yy/netx/x/ingress"
+	"github.com/168yy/netx/x/internal/util/mux"
 )
 
 const (

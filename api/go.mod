@@ -1,4 +1,4 @@
-module github.com/jxo-me/netx/api
+module github.com/168yy/netx/api
 
 go 1.22
 
@@ -6,9 +6,9 @@ toolchain go1.22.4
 
 require (
 	github.com/gogf/gf/v2 v2.7.2
-	github.com/jxo-me/gfbot v0.1.19
-	github.com/jxo-me/netx/core v0.0.10
-	github.com/jxo-me/netx/x v0.0.14
+	github.com/168yy/gfbot v0.1.19
+	github.com/168yy/netx/core v0.0.10
+	github.com/168yy/netx/x v0.0.14
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -29,7 +29,7 @@ require (
 	github.com/gorilla/websocket v1.5.1 // indirect
 	github.com/grokify/html-strip-tags-go v0.1.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/jxo-me/netx/plugin v0.0.6 // indirect
+	github.com/168yy/netx/plugin v0.0.6 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect

@@ -3,11 +3,11 @@ package chain
 import (
 	"context"
 
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/hop"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/core/selector"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/hop"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/core/selector"
 )
 
 var (

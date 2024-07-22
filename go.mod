@@ -1,3 +1,3 @@
-module github.com/jxo-me/netx
+module github.com/168yy/netx
 
 go 1.22

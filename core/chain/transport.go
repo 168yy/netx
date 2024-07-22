@@ -4,9 +4,9 @@ import (
 	"context"
 	"net"
 
-	net_dialer "github.com/jxo-me/netx/core/common/net/dialer"
-	"github.com/jxo-me/netx/core/connector"
-	"github.com/jxo-me/netx/core/dialer"
+	net_dialer "github.com/168yy/netx/core/common/net/dialer"
+	"github.com/168yy/netx/core/connector"
+	"github.com/168yy/netx/core/dialer"
 )
 
 type TransportOptions struct {

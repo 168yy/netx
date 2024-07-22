@@ -6,14 +6,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/gosocks5"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
-	xnet "github.com/jxo-me/netx/x/internal/net"
-	"github.com/jxo-me/netx/x/internal/net/udp"
-	"github.com/jxo-me/netx/x/internal/util/socks"
-	"github.com/jxo-me/netx/x/stats"
-	stats_wrapper "github.com/jxo-me/netx/x/stats/wrapper"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/gosocks5"
+	ctxvalue "github.com/168yy/netx/x/ctx"
+	xnet "github.com/168yy/netx/x/internal/net"
+	"github.com/168yy/netx/x/internal/net/udp"
+	"github.com/168yy/netx/x/internal/util/socks"
+	"github.com/168yy/netx/x/stats"
+	stats_wrapper "github.com/168yy/netx/x/stats/wrapper"
 )
 
 func (h *socks5Handler) handleUDPTun(ctx context.Context, conn net.Conn, network, address string, log logger.ILogger) error {

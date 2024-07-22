@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jxo-me/netx/core/auth"
+	"github.com/168yy/netx/core/auth"
 	"golang.org/x/crypto/ssh"
 )
 

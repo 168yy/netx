@@ -3,8 +3,8 @@ package recorder
 import (
 	"context"
 
+	"github.com/168yy/netx/core/recorder"
 	"github.com/go-redis/redis/v8"
-	"github.com/jxo-me/netx/core/recorder"
 )
 
 type redisRecorderOptions struct {

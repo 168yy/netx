@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "github.com/jxo-me/netx/core/common/util/grpc/proto";
+option go_package = "github.com/168yy/netx/core/common/util/grpc/proto";
 
 message Chunk {
   bytes data = 1;

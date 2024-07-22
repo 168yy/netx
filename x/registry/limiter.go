@@ -3,9 +3,9 @@ package registry
 import (
 	"context"
 
-	"github.com/jxo-me/netx/core/limiter/conn"
-	"github.com/jxo-me/netx/core/limiter/rate"
-	"github.com/jxo-me/netx/core/limiter/traffic"
+	"github.com/168yy/netx/core/limiter/conn"
+	"github.com/168yy/netx/core/limiter/rate"
+	"github.com/168yy/netx/core/limiter/traffic"
 )
 
 type TrafficLimiterRegistry struct {

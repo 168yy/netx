@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"net"
 
-	"github.com/jxo-me/netx/core/common/bufpool"
+	"github.com/168yy/netx/core/common/bufpool"
 )
 
 type dtlsConn struct {

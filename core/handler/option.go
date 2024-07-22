@@ -4,14 +4,14 @@ import (
 	"crypto/tls"
 	"net/url"
 
-	"github.com/jxo-me/netx/core/auth"
-	"github.com/jxo-me/netx/core/bypass"
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/limiter/rate"
-	"github.com/jxo-me/netx/core/limiter/traffic"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/core/observer"
+	"github.com/168yy/netx/core/auth"
+	"github.com/168yy/netx/core/bypass"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/limiter/rate"
+	"github.com/168yy/netx/core/limiter/traffic"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/core/observer"
 )
 
 type Options struct {

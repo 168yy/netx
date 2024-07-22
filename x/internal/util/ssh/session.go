@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/logger"
+	"github.com/168yy/netx/core/logger"
 	"golang.org/x/crypto/ssh"
 )
 

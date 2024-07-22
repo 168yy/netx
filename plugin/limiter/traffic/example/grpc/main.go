@@ -7,7 +7,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/jxo-me/netx/plugin/limiter/traffic/proto"
+	"github.com/168yy/netx/plugin/limiter/traffic/proto"
 	"google.golang.org/grpc"
 )
 

@@ -6,10 +6,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/connector"
-	md "github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/relay"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
+	"github.com/168yy/netx/core/connector"
+	md "github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/relay"
+	ctxvalue "github.com/168yy/netx/x/ctx"
 )
 
 type tunnelConnector struct {

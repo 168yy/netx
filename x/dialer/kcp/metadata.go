@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	mdata "github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
-	kcp_util "github.com/jxo-me/netx/x/internal/util/kcp"
+	mdata "github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
+	kcp_util "github.com/168yy/netx/x/internal/util/kcp"
 )
 
 type metadata struct {

@@ -10,10 +10,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/jxo-me/netx/core/common/bufpool"
-	mdata "github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/relay"
-	xrelay "github.com/jxo-me/netx/x/internal/util/relay"
+	"github.com/168yy/netx/core/common/bufpool"
+	mdata "github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/relay"
+	xrelay "github.com/168yy/netx/x/internal/util/relay"
 )
 
 type tcpConn struct {

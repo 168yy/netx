@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/jxo-me/netx/core/hosts"
+	"github.com/168yy/netx/core/hosts"
 )
 
 type HostsRegistry struct {

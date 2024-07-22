@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	mdata "github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
+	mdata "github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
 	"github.com/mitchellh/go-homedir"
 	"github.com/zalando/go-keyring"
 	"golang.org/x/crypto/ssh"
@@ -23,9 +23,9 @@ type metadata struct {
 
 func (d *sshDialer) parseMetadata(md mdata.IMetaData) (err error) {
 	const (
-		handshakeTimeout = "handshakeTimeout"
-		privateKeyFile   = "privateKeyFile"
-		passphrase       = "passphrase"
+		handshakeTimeout      = "handshakeTimeout"
+		privateKeyFile        = "privateKeyFile"
+		passphrase            = "passphrase"
 		passphraseFromKeyring = "passphraseFromKeyring"
 	)
 

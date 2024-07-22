@@ -1,9 +1,9 @@
 package api
 
 import (
+	telebot "github.com/168yy/gfbot"
+	"github.com/168yy/netx/core/service"
 	"github.com/gogf/gf/v2/net/ghttp"
-	telebot "github.com/jxo-me/gfbot"
-	"github.com/jxo-me/netx/core/service"
 	"net"
 )
 

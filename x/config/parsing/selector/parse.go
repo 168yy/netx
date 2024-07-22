@@ -1,10 +1,10 @@
 package selector
 
 import (
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/selector"
-	"github.com/jxo-me/netx/x/config"
-	xs "github.com/jxo-me/netx/x/selector"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/selector"
+	"github.com/168yy/netx/x/config"
+	xs "github.com/168yy/netx/x/selector"
 )
 
 func ParseChainSelector(cfg *config.SelectorConfig) selector.ISelector[chain.IChainer] {

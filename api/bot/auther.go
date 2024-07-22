@@ -3,12 +3,12 @@ package bot
 import (
 	"encoding/json"
 	"fmt"
+	telebot "github.com/168yy/gfbot"
+	"github.com/168yy/gfbot/handlers"
+	"github.com/168yy/netx/x/app"
+	"github.com/168yy/netx/x/config"
+	parser "github.com/168yy/netx/x/config/parsing/auth"
 	"github.com/gogf/gf/v2/util/gconv"
-	telebot "github.com/jxo-me/gfbot"
-	"github.com/jxo-me/gfbot/handlers"
-	"github.com/jxo-me/netx/x/app"
-	"github.com/jxo-me/netx/x/config"
-	parser "github.com/jxo-me/netx/x/config/parsing/auth"
 )
 
 const (

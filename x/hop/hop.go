@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jxo-me/netx/core/bypass"
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/hop"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/selector"
-	"github.com/jxo-me/netx/x/config"
-	node_parser "github.com/jxo-me/netx/x/config/parsing/node"
-	"github.com/jxo-me/netx/x/internal/loader"
+	"github.com/168yy/netx/core/bypass"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/hop"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/selector"
+	"github.com/168yy/netx/x/config"
+	node_parser "github.com/168yy/netx/x/config/parsing/node"
+	"github.com/168yy/netx/x/internal/loader"
 )
 
 type options struct {

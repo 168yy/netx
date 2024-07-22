@@ -5,9 +5,9 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/jxo-me/netx/core/dialer"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
+	"github.com/168yy/netx/core/dialer"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
 )
 
 type obfsHTTPDialer struct {

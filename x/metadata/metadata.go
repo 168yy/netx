@@ -3,7 +3,7 @@ package metadata
 import (
 	"strings"
 
-	"github.com/jxo-me/netx/core/metadata"
+	"github.com/168yy/netx/core/metadata"
 )
 
 type mapMetadata map[string]any

@@ -3,7 +3,7 @@ package wrapper
 import (
 	"net"
 
-	"github.com/jxo-me/netx/x/stats"
+	"github.com/168yy/netx/x/stats"
 )
 
 type listener struct {

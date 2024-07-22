@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/jxo-me/netx/core/logger"
+	"github.com/168yy/netx/core/logger"
 	"github.com/sirupsen/logrus"
 )
 

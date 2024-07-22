@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jxo-me/netx/core/handler"
-	md "github.com/jxo-me/netx/core/metadata"
-	xmetrics "github.com/jxo-me/netx/x/metrics"
+	"github.com/168yy/netx/core/handler"
+	md "github.com/168yy/netx/core/metadata"
+	xmetrics "github.com/168yy/netx/x/metrics"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

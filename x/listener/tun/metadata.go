@@ -1,16 +1,16 @@
 package tun
 
 import (
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"net"
 	"strings"
 
-	"github.com/jxo-me/netx/core/logger"
-	mdata "github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
-	"github.com/jxo-me/netx/core/router"
-	tun_util "github.com/jxo-me/netx/x/internal/util/tun"
-	xrouter "github.com/jxo-me/netx/x/router"
+	"github.com/168yy/netx/core/logger"
+	mdata "github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
+	"github.com/168yy/netx/core/router"
+	tun_util "github.com/168yy/netx/x/internal/util/tun"
+	xrouter "github.com/168yy/netx/x/router"
 )
 
 const (

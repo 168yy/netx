@@ -1,15 +1,15 @@
 package api
 
 import (
+	"github.com/168yy/netx/api/handler"
+	"github.com/168yy/netx/core/logger"
 	"github.com/gogf/gf/v2/errors/gcode"
 	"github.com/gogf/gf/v2/errors/gerror"
 	"github.com/gogf/gf/v2/net/ghttp"
-	"github.com/jxo-me/netx/api/handler"
-	"github.com/jxo-me/netx/core/logger"
 	"net/http"
 	"time"
 
-	"github.com/jxo-me/netx/core/auth"
+	"github.com/168yy/netx/core/auth"
 )
 
 func mwLogger() ghttp.HandlerFunc {

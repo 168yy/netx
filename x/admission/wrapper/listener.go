@@ -4,8 +4,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/jxo-me/netx/core/admission"
-	"github.com/jxo-me/netx/core/logger"
+	"github.com/168yy/netx/core/admission"
+	"github.com/168yy/netx/core/logger"
 )
 
 type listener struct {

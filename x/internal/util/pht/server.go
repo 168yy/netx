@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jxo-me/netx/core/common/bufpool"
-	"github.com/jxo-me/netx/core/logger"
-	xnet "github.com/jxo-me/netx/x/internal/net"
+	"github.com/168yy/netx/core/common/bufpool"
+	"github.com/168yy/netx/core/logger"
+	xnet "github.com/168yy/netx/x/internal/net"
 	"github.com/quic-go/quic-go"
 	"github.com/quic-go/quic-go/http3"
 	"github.com/rs/xid"

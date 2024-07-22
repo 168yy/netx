@@ -9,10 +9,10 @@ import (
 	"syscall"
 	"time"
 
-	limiter "github.com/jxo-me/netx/core/limiter/traffic"
-	"github.com/jxo-me/netx/core/metadata"
-	xnet "github.com/jxo-me/netx/x/internal/net"
-	"github.com/jxo-me/netx/x/internal/net/udp"
+	limiter "github.com/168yy/netx/core/limiter/traffic"
+	"github.com/168yy/netx/core/metadata"
+	xnet "github.com/168yy/netx/x/internal/net"
+	"github.com/168yy/netx/x/internal/net/udp"
 	"github.com/patrickmn/go-cache"
 )
 

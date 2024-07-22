@@ -1,12 +1,12 @@
 package chain
 
 import (
-	"github.com/jxo-me/netx/core/auth"
-	"github.com/jxo-me/netx/core/bypass"
-	"github.com/jxo-me/netx/core/hosts"
-	"github.com/jxo-me/netx/core/metadata"
-	"github.com/jxo-me/netx/core/resolver"
-	"github.com/jxo-me/netx/core/selector"
+	"github.com/168yy/netx/core/auth"
+	"github.com/168yy/netx/core/bypass"
+	"github.com/168yy/netx/core/hosts"
+	"github.com/168yy/netx/core/metadata"
+	"github.com/168yy/netx/core/resolver"
+	"github.com/168yy/netx/core/selector"
 	"regexp"
 )
 

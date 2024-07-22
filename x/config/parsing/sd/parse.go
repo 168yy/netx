@@ -4,10 +4,10 @@ import (
 	"crypto/tls"
 	"strings"
 
-	"github.com/jxo-me/netx/core/sd"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/internal/plugin"
-	sdplugin "github.com/jxo-me/netx/x/sd/plugin"
+	"github.com/168yy/netx/core/sd"
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/internal/plugin"
+	sdplugin "github.com/168yy/netx/x/sd/plugin"
 )
 
 func ParseSD(cfg *config.SDConfig) sd.ISD {

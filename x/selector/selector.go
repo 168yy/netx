@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/jxo-me/netx/core/selector"
+	"github.com/168yy/netx/core/selector"
 )
 
 // default options for FailFilter

@@ -7,7 +7,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/jxo-me/netx/plugin/ingress/proto"
+	"github.com/168yy/netx/plugin/ingress/proto"
 	"google.golang.org/grpc"
 )
 

@@ -14,9 +14,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/config"
-	tls_util "github.com/jxo-me/netx/x/internal/util/tls"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/config"
+	tls_util "github.com/168yy/netx/x/internal/util/tls"
 )
 
 var (

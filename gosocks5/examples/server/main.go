@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/jxo-me/netx/gosocks5/server"
+	"github.com/168yy/netx/gosocks5/server"
 )
 
 var (

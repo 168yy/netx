@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/handler"
-	"github.com/jxo-me/netx/core/hop"
-	md "github.com/jxo-me/netx/core/metadata"
-	tun_util "github.com/jxo-me/netx/x/internal/util/tun"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/handler"
+	"github.com/168yy/netx/core/hop"
+	md "github.com/168yy/netx/core/metadata"
+	tun_util "github.com/168yy/netx/x/internal/util/tun"
 	"github.com/songgao/water/waterutil"
 )
 

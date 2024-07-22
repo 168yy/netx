@@ -1,16 +1,16 @@
-module github.com/jxo-me/netx/x
+module github.com/168yy/netx/x
 
 go 1.22
 
 toolchain go1.22.4
 
 replace (
-	github.com/jxo-me/netx/core => ../core
-	github.com/jxo-me/netx/gosocks4 => ../gosocks4
-	github.com/jxo-me/netx/gosocks5 => ../gosocks5
-	github.com/jxo-me/netx/plugin => ../plugin
-	github.com/jxo-me/netx/relay => ../relay
-	github.com/jxo-me/netx/tls-dissector => ../tls-dissector
+	github.com/168yy/netx/core => ../core
+	github.com/168yy/netx/gosocks4 => ../gosocks4
+	github.com/168yy/netx/gosocks5 => ../gosocks5
+	github.com/168yy/netx/plugin => ../plugin
+	github.com/168yy/netx/relay => ../relay
+	github.com/168yy/netx/tls-dissector => ../tls-dissector
 )
 
 require (
@@ -23,12 +23,12 @@ require (
 	github.com/golang/snappy v0.0.4
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/websocket v1.5.1
-	github.com/jxo-me/netx/core v0.0.10
-	github.com/jxo-me/netx/gosocks4 v0.0.1
-	github.com/jxo-me/netx/gosocks5 v0.0.2
-	github.com/jxo-me/netx/plugin v0.0.6
-	github.com/jxo-me/netx/relay v0.0.2
-	github.com/jxo-me/netx/tls-dissector v0.0.1
+	github.com/168yy/netx/core v0.0.10
+	github.com/168yy/netx/gosocks4 v0.0.1
+	github.com/168yy/netx/gosocks5 v0.0.2
+	github.com/168yy/netx/plugin v0.0.6
+	github.com/168yy/netx/relay v0.0.2
+	github.com/168yy/netx/tls-dissector v0.0.1
 	github.com/miekg/dns v1.1.61
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
@@ -93,7 +93,7 @@ require (
 	github.com/grokify/html-strip-tags-go v0.1.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/jxo-me/gfbot v0.1.18 // indirect
+	github.com/168yy/gfbot v0.1.18 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
 	github.com/klauspost/reedsolomon v1.12.0 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect

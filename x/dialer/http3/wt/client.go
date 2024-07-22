@@ -7,8 +7,8 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/jxo-me/netx/core/logger"
-	wt_util "github.com/jxo-me/netx/x/internal/util/wt"
+	"github.com/168yy/netx/core/logger"
+	wt_util "github.com/168yy/netx/x/internal/util/wt"
 	wt "github.com/quic-go/webtransport-go"
 )
 

@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	net_dialer "github.com/jxo-me/netx/core/common/net/dialer"
-	"github.com/jxo-me/netx/core/dialer"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
-	mdx "github.com/jxo-me/netx/x/metadata"
+	net_dialer "github.com/168yy/netx/core/common/net/dialer"
+	"github.com/168yy/netx/core/dialer"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
+	mdx "github.com/168yy/netx/x/metadata"
 )
 
 type http2Dialer struct {

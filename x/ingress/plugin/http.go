@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/jxo-me/netx/core/ingress"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/ingress"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/internal/plugin"
 )
 
 type httpPluginGetRuleRequest struct {

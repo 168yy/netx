@@ -5,9 +5,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/common/bufpool"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/gosocks5"
+	"github.com/168yy/netx/core/common/bufpool"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/gosocks5"
 )
 
 type bindConn struct {

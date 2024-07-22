@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
-	"github.com/jxo-me/netx/core/selector"
+	"github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
+	"github.com/168yy/netx/core/selector"
 )
 
 type failFilter[T any] struct {

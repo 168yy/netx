@@ -3,8 +3,8 @@ package registry
 import (
 	"context"
 
-	"github.com/jxo-me/netx/core/chain"
-	"github.com/jxo-me/netx/core/hop"
+	"github.com/168yy/netx/core/chain"
+	"github.com/168yy/netx/core/hop"
 )
 
 type HopRegistry struct {

@@ -2,16 +2,16 @@ package bypass
 
 import (
 	"crypto/tls"
-	"github.com/jxo-me/netx/x/app"
+	"github.com/168yy/netx/x/app"
 	"strings"
 
-	"github.com/jxo-me/netx/core/bypass"
-	"github.com/jxo-me/netx/core/logger"
-	xbypass "github.com/jxo-me/netx/x/bypass"
-	bypassplugin "github.com/jxo-me/netx/x/bypass/plugin"
-	"github.com/jxo-me/netx/x/config"
-	"github.com/jxo-me/netx/x/internal/loader"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/bypass"
+	"github.com/168yy/netx/core/logger"
+	xbypass "github.com/168yy/netx/x/bypass"
+	bypassplugin "github.com/168yy/netx/x/bypass/plugin"
+	"github.com/168yy/netx/x/config"
+	"github.com/168yy/netx/x/internal/loader"
+	"github.com/168yy/netx/x/internal/plugin"
 )
 
 func ParseBypass(cfg *config.BypassConfig) bypass.IBypass {

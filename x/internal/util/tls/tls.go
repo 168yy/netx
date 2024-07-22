@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/config"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/config"
 )
 
 const (

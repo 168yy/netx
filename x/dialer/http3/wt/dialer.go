@@ -6,8 +6,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/jxo-me/netx/core/dialer"
-	md "github.com/jxo-me/netx/core/metadata"
+	"github.com/168yy/netx/core/dialer"
+	md "github.com/168yy/netx/core/metadata"
 	"github.com/quic-go/quic-go"
 	wt "github.com/quic-go/webtransport-go"
 )

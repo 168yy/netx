@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/jxo-me/netx/core/metadata"
+	"github.com/168yy/netx/core/metadata"
 )
 
 var (

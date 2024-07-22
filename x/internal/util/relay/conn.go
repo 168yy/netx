@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"net"
 
-	"github.com/jxo-me/netx/core/common/bufpool"
-	"github.com/jxo-me/netx/gosocks5"
-	"github.com/jxo-me/netx/relay"
+	"github.com/168yy/netx/core/common/bufpool"
+	"github.com/168yy/netx/gosocks5"
+	"github.com/168yy/netx/relay"
 )
 
 func StatusText(code uint8) string {

@@ -6,10 +6,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/jxo-me/netx/core/dialer"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
-	quic_util "github.com/jxo-me/netx/x/internal/util/quic"
+	"github.com/168yy/netx/core/dialer"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
+	quic_util "github.com/168yy/netx/x/internal/util/quic"
 	"github.com/quic-go/quic-go"
 )
 

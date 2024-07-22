@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/jxo-me/netx/core/service"
+	"github.com/168yy/netx/core/service"
 )
 
 type ServiceRegistry struct {

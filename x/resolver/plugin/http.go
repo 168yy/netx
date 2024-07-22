@@ -9,10 +9,10 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/resolver"
-	ctxvalue "github.com/jxo-me/netx/x/ctx"
-	"github.com/jxo-me/netx/x/internal/plugin"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/resolver"
+	ctxvalue "github.com/168yy/netx/x/ctx"
+	"github.com/168yy/netx/x/internal/plugin"
 )
 
 type httpPluginRequest struct {

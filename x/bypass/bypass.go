@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jxo-me/netx/core/bypass"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/internal/loader"
-	"github.com/jxo-me/netx/x/internal/matcher"
+	"github.com/168yy/netx/core/bypass"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/internal/loader"
+	"github.com/168yy/netx/x/internal/matcher"
 )
 
 type options struct {

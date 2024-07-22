@@ -2,8 +2,8 @@ package bot
 
 import (
 	"fmt"
-	telebot "github.com/jxo-me/gfbot"
-	"github.com/jxo-me/netx/x/config"
+	telebot "github.com/168yy/gfbot"
+	"github.com/168yy/netx/x/config"
 	"os"
 	"time"
 )

@@ -6,12 +6,12 @@ import (
 	"encoding/hex"
 	"net"
 
+	"github.com/168yy/netx/core/ingress"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/core/sd"
+	"github.com/168yy/netx/relay"
+	"github.com/168yy/netx/x/internal/util/mux"
 	"github.com/google/uuid"
-	"github.com/jxo-me/netx/core/ingress"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/core/sd"
-	"github.com/jxo-me/netx/relay"
-	"github.com/jxo-me/netx/x/internal/util/mux"
 )
 
 func (h *tunnelHandler) handleBind(ctx context.Context, conn net.Conn, network, address string, tunnelID relay.TunnelID, log logger.ILogger) (err error) {

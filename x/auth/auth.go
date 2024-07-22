@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jxo-me/netx/core/auth"
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/x/internal/loader"
-	xlogger "github.com/jxo-me/netx/x/logger"
+	"github.com/168yy/netx/core/auth"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/x/internal/loader"
+	xlogger "github.com/168yy/netx/x/logger"
 )
 
 type options struct {

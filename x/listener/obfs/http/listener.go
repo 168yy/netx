@@ -2,20 +2,20 @@ package http
 
 import (
 	"context"
-	"github.com/jxo-me/netx/x/internal/net/proxyproto"
+	"github.com/168yy/netx/x/internal/net/proxyproto"
 	"net"
 	"time"
 
-	"github.com/jxo-me/netx/core/listener"
-	"github.com/jxo-me/netx/core/logger"
-	md "github.com/jxo-me/netx/core/metadata"
-	admission "github.com/jxo-me/netx/x/admission/wrapper"
-	xnet "github.com/jxo-me/netx/x/internal/net"
-	climiter "github.com/jxo-me/netx/x/limiter/conn/wrapper"
-	limiter "github.com/jxo-me/netx/x/limiter/traffic/wrapper"
-	metrics "github.com/jxo-me/netx/x/metrics/wrapper"
+	"github.com/168yy/netx/core/listener"
+	"github.com/168yy/netx/core/logger"
+	md "github.com/168yy/netx/core/metadata"
+	admission "github.com/168yy/netx/x/admission/wrapper"
+	xnet "github.com/168yy/netx/x/internal/net"
+	climiter "github.com/168yy/netx/x/limiter/conn/wrapper"
+	limiter "github.com/168yy/netx/x/limiter/traffic/wrapper"
+	metrics "github.com/168yy/netx/x/metrics/wrapper"
 
-	stats "github.com/jxo-me/netx/x/stats/wrapper"
+	stats "github.com/168yy/netx/x/stats/wrapper"
 )
 
 type obfsListener struct {

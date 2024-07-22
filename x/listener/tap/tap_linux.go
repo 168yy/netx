@@ -5,7 +5,7 @@ import (
 	"io"
 	"net"
 
-	tap_util "github.com/jxo-me/netx/x/internal/util/tap"
+	tap_util "github.com/168yy/netx/x/internal/util/tap"
 	"github.com/songgao/water"
 	"github.com/vishvananda/netlink"
 )

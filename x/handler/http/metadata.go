@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	mdata "github.com/jxo-me/netx/core/metadata"
-	mdutil "github.com/jxo-me/netx/core/metadata/util"
+	mdata "github.com/168yy/netx/core/metadata"
+	mdutil "github.com/168yy/netx/core/metadata/util"
 )
 
 const (
-	defaultRealm = "gost"
+	defaultRealm      = "gost"
 	defaultProxyAgent = "gost/3.0"
 )
 

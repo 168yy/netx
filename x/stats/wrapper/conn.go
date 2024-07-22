@@ -6,10 +6,10 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/jxo-me/netx/core/metadata"
-	xnet "github.com/jxo-me/netx/x/internal/net"
-	"github.com/jxo-me/netx/x/internal/net/udp"
-	"github.com/jxo-me/netx/x/stats"
+	"github.com/168yy/netx/core/metadata"
+	xnet "github.com/168yy/netx/x/internal/net"
+	"github.com/168yy/netx/x/internal/net/udp"
+	"github.com/168yy/netx/x/stats"
 )
 
 var (

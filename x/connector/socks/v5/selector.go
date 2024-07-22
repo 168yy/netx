@@ -5,9 +5,9 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/jxo-me/netx/core/logger"
-	"github.com/jxo-me/netx/gosocks5"
-	"github.com/jxo-me/netx/x/internal/util/socks"
+	"github.com/168yy/netx/core/logger"
+	"github.com/168yy/netx/gosocks5"
+	"github.com/168yy/netx/x/internal/util/socks"
 )
 
 type clientSelector struct {

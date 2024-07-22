@@ -19,7 +19,7 @@ definitions:
                 type: string
                 x-go-name: PathPrefix
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     AdmissionConfig:
         properties:
             file:
@@ -48,7 +48,7 @@ definitions:
                 type: boolean
                 x-go-name: Whitelist
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     AuthConfig:
         properties:
             password:
@@ -58,7 +58,7 @@ definitions:
                 type: string
                 x-go-name: Username
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     AutherConfig:
         properties:
             auths:
@@ -80,7 +80,7 @@ definitions:
             reload:
                 $ref: '#/definitions/Duration'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     BypassConfig:
         properties:
             file:
@@ -109,7 +109,7 @@ definitions:
                 type: boolean
                 x-go-name: Whitelist
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ChainConfig:
         properties:
             hops:
@@ -125,7 +125,7 @@ definitions:
                 type: string
                 x-go-name: Name
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ChainGroupConfig:
         properties:
             chains:
@@ -136,7 +136,7 @@ definitions:
             selector:
                 $ref: '#/definitions/SelectorConfig'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     Config:
         properties:
             admissions:
@@ -235,7 +235,7 @@ definitions:
             tls:
                 $ref: '#/definitions/TLSConfig'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ConnectorConfig:
         properties:
             auth:
@@ -250,7 +250,7 @@ definitions:
                 type: string
                 x-go-name: Type
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     DialerConfig:
         properties:
             auth:
@@ -265,7 +265,7 @@ definitions:
                 type: string
                 x-go-name: Type
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     Duration:
         description: |-
             A Duration represents the elapsed time between two instants
@@ -280,7 +280,7 @@ definitions:
                 type: string
                 x-go-name: Path
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     FileRecorder:
         properties:
             path:
@@ -290,7 +290,7 @@ definitions:
                 type: string
                 x-go-name: Sep
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ForwardNodeConfig:
         properties:
             addr:
@@ -335,7 +335,7 @@ definitions:
             tls:
                 $ref: '#/definitions/TLSNodeConfig'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ForwarderConfig:
         properties:
             hop:
@@ -354,7 +354,7 @@ definitions:
             selector:
                 $ref: '#/definitions/SelectorConfig'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     HTTPLoader:
         properties:
             timeout:
@@ -363,7 +363,7 @@ definitions:
                 type: string
                 x-go-name: URL
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     HTTPNodeConfig:
         properties:
             auth:
@@ -382,7 +382,7 @@ definitions:
                 type: array
                 x-go-name: Rewrite
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     HTTPRecorder:
         properties:
             timeout:
@@ -391,7 +391,7 @@ definitions:
                 type: string
                 x-go-name: URL
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     HTTPURLRewriteConfig:
         properties:
             Match:
@@ -399,7 +399,7 @@ definitions:
             Replacement:
                 type: string
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     HandlerConfig:
         properties:
             auth:
@@ -437,7 +437,7 @@ definitions:
                 type: string
                 x-go-name: Type
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     HopConfig:
         properties:
             bypass:
@@ -480,7 +480,7 @@ definitions:
             sockopts:
                 $ref: '#/definitions/SockOptsConfig'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     HostMappingConfig:
         properties:
             aliases:
@@ -495,7 +495,7 @@ definitions:
                 type: string
                 x-go-name: IP
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     HostsConfig:
         properties:
             file:
@@ -517,7 +517,7 @@ definitions:
             reload:
                 $ref: '#/definitions/Duration'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     IngressConfig:
         properties:
             file:
@@ -539,7 +539,7 @@ definitions:
                 type: array
                 x-go-name: Rules
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     IngressRuleConfig:
         properties:
             endpoint:
@@ -549,7 +549,7 @@ definitions:
                 type: string
                 x-go-name: Hostname
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     LimiterConfig:
         properties:
             file:
@@ -571,7 +571,7 @@ definitions:
             reload:
                 $ref: '#/definitions/Duration'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ListenerConfig:
         properties:
             auth:
@@ -599,7 +599,7 @@ definitions:
                 type: string
                 x-go-name: Type
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     LogConfig:
         properties:
             format:
@@ -614,7 +614,7 @@ definitions:
             rotation:
                 $ref: '#/definitions/LogRotationConfig'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     LogRotationConfig:
         properties:
             compress:
@@ -656,7 +656,7 @@ definitions:
                 type: integer
                 x-go-name: MaxSize
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     LoggerConfig:
         properties:
             log:
@@ -665,7 +665,7 @@ definitions:
                 type: string
                 x-go-name: Name
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     MetricsConfig:
         properties:
             addr:
@@ -680,7 +680,7 @@ definitions:
                 type: string
                 x-go-name: Path
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     NameserverConfig:
         properties:
             addr:
@@ -709,7 +709,7 @@ definitions:
             ttl:
                 $ref: '#/definitions/Duration'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     NodeConfig:
         properties:
             addr:
@@ -755,7 +755,7 @@ definitions:
             tls:
                 $ref: '#/definitions/TLSNodeConfig'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     NodeFilterConfig:
         properties:
             host:
@@ -768,7 +768,7 @@ definitions:
                 type: string
                 x-go-name: Protocol
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ObserverConfig:
         properties:
             name:
@@ -777,7 +777,7 @@ definitions:
             plugin:
                 $ref: '#/definitions/PluginConfig'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     PluginConfig:
         properties:
             addr:
@@ -794,14 +794,14 @@ definitions:
                 type: string
                 x-go-name: Type
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ProfilingConfig:
         properties:
             addr:
                 type: string
                 x-go-name: Addr
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     RecorderConfig:
         properties:
             file:
@@ -818,7 +818,7 @@ definitions:
             tcp:
                 $ref: '#/definitions/TCPRecorder'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     RecorderObject:
         properties:
             Metadata:
@@ -831,7 +831,7 @@ definitions:
                 type: string
                 x-go-name: Record
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     RedisLoader:
         properties:
             addr:
@@ -851,7 +851,7 @@ definitions:
                 type: string
                 x-go-name: Type
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     RedisRecorder:
         properties:
             addr:
@@ -871,7 +871,7 @@ definitions:
                 type: string
                 x-go-name: Type
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ResolverConfig:
         properties:
             name:
@@ -885,7 +885,7 @@ definitions:
             plugin:
                 $ref: '#/definitions/PluginConfig'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     Response:
         properties:
             code:
@@ -896,7 +896,7 @@ definitions:
                 type: string
                 x-go-name: Msg
         type: object
-        x-go-package: github.com/jxo-me/netx/x/api
+        x-go-package: github.com/168yy/netx/x/api
     RouterConfig:
         properties:
             file:
@@ -918,7 +918,7 @@ definitions:
                 type: array
                 x-go-name: Routes
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     RouterRouteConfig:
         properties:
             gateway:
@@ -928,7 +928,7 @@ definitions:
                 type: string
                 x-go-name: Net
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     SDConfig:
         properties:
             name:
@@ -937,7 +937,7 @@ definitions:
             plugin:
                 $ref: '#/definitions/PluginConfig'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     SelectorConfig:
         properties:
             failTimeout:
@@ -950,7 +950,7 @@ definitions:
                 type: string
                 x-go-name: Strategy
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ServiceConfig:
         properties:
             addr:
@@ -1025,7 +1025,7 @@ definitions:
             status:
                 $ref: '#/definitions/ServiceStatus'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ServiceEvent:
         properties:
             msg:
@@ -1036,7 +1036,7 @@ definitions:
                 type: integer
                 x-go-name: Time
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ServiceStats:
         properties:
             currentConns:
@@ -1060,7 +1060,7 @@ definitions:
                 type: integer
                 x-go-name: TotalErrs
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     ServiceStatus:
         properties:
             createTime:
@@ -1078,7 +1078,7 @@ definitions:
             stats:
                 $ref: '#/definitions/ServiceStats'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     SockOptsConfig:
         properties:
             mark:
@@ -1086,7 +1086,7 @@ definitions:
                 type: integer
                 x-go-name: Mark
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     TCPRecorder:
         properties:
             addr:
@@ -1095,7 +1095,7 @@ definitions:
             timeout:
                 $ref: '#/definitions/Duration'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     TLSConfig:
         properties:
             caFile:
@@ -1124,7 +1124,7 @@ definitions:
             validity:
                 $ref: '#/definitions/Duration'
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     TLSNodeConfig:
         properties:
             options:
@@ -1136,7 +1136,7 @@ definitions:
                 type: string
                 x-go-name: ServerName
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
     TLSOptions:
         properties:
             cipherSuites:
@@ -1151,7 +1151,7 @@ definitions:
                 type: string
                 x-go-name: MinVersion
         type: object
-        x-go-package: github.com/jxo-me/netx/x/config
+        x-go-package: github.com/168yy/netx/x/config
 info:
     title: Documentation of Web API.
     version: 1.0.0
